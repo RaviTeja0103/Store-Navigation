@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'out.dart';
+import 'sample.dart';
 
 class Cartpage extends StatefulWidget {
   final Map<String, double> cart;
@@ -142,7 +143,7 @@ class _CartpageState extends State<Cartpage> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => out(),
+                        builder: (context) => test(),
                       ),
                     );
                   },
